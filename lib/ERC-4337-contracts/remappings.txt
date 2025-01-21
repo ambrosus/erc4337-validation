@@ -1,0 +1,3 @@
+@openzeppelin/contracts/=dependencies/openzeppelin-contracts/contracts/
+forge-std/=dependencies/forge-std/src/
+solidity-bytes-utils/=dependencies/solidity-bytes-utils/contracts/

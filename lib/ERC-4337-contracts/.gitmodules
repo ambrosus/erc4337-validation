@@ -1,0 +1,12 @@
+[submodule "dependencies/openzeppelin-contracts"]
+	path = dependencies/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "dependencies/forge-std"]
+	path = dependencies/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "dependencies/openzeppelin-foundry-upgrades"]
+	path = dependencies/openzeppelin-foundry-upgrades
+	url = https://github.com/OpenZeppelin/openzeppelin-foundry-upgrades
+[submodule "dependencies/solidity-bytes-utils"]
+	path = dependencies/solidity-bytes-utils
+	url = https://github.com/GNSPS/solidity-bytes-utils

@@ -1,0 +1,21 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["node_modules", "lib"]
+gas_limit = "18446744073709551615"
+memory_limit = 2147483648
+verbosity = 3
+evm_version = "istanbul"
+
+[fmt]
+bracket_spacing = true
+int_types = "long"
+line_length = 100
+multiline_func_header = "all"
+number_underscore = "thousands"
+quote_style = "double"
+tab_width = 4
+wrap_comments = true
+
+[dependencies]
+account-abstraction = { version = "v0.0.3", git = "https://github.com/ambrosus/ERC-4337-contracts.git", rev = "af51ffbb38b132bc71427818599daec03adbf7c8" }
